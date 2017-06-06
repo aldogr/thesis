@@ -1,0 +1,13 @@
+{application,multicopter,
+             [{description,"Demonstration of DSU on a multicopter"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{multicopter_app,[]}},
+              {applications,[kernel,stdlib,i2c]},
+              {env,[]},
+              {modules,[connector,controller_aldo,controller_kilian,
+                        imu_bno055,multicopter_app,multicopter_sup,pwm,
+                        remote]},
+              {maintainers,["Aldo Garcia Regueria","Kilian Holzinger"]},
+              {licenses,[]},
+              {links,["http://www.ses.mw.tum.de/"]}]}.

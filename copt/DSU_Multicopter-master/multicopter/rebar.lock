@@ -1,0 +1,4 @@
+[{<<"i2c">>,
+  {git,"https://github.com/nextl00p/i2c.git",
+       {ref,"67af27558ae1a656275dc7b765f1e34be0211503"}},
+  0}].
